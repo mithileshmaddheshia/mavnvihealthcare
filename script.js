@@ -25,4 +25,15 @@ var swiper = new Swiper(".mySwiper", {
           spaceBetween: 60,
         },
       },
+
     });
+
+
+
+// loader
+
+window.addEventListener("load", () => {
+    setTimeout(() => {
+        document.getElementById("page-loader").classList.add("hidden");
+    }, 700);
+});
